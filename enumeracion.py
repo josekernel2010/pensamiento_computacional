@@ -1,3 +1,16 @@
+from os import system
+from pyfiglet import Figlet
+
+system("cls")
+
+
+titulo = Figlet(font='standard')
+titulo = titulo.renderText('Enumeracion')
+print(titulo)
+
+
+
+
 
 objetivo = int(input('Escoge un numero: '))
 respuesta = 0

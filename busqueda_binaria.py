@@ -1,5 +1,14 @@
-# Busqueda binaria se utiliza para encontrar un elemento en una lista ordenada
+from os import system
+from pyfiglet import Figlet
 
+system("cls")
+
+
+titulo = Figlet(font='standard')
+titulo = titulo.renderText('Busqueda Binaria')
+print(titulo)
+
+# Busqueda binaria se utiliza para encontrar un elemento en una lista ordenada
 objetivo = int(input('Escoge un numero: '))
 
 epsilon = 0.01

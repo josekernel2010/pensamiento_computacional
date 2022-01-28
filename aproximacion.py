@@ -1,6 +1,12 @@
 from os import system
+from pyfiglet import Figlet
 
 system("cls")
+
+titulo = Figlet(font='standard')
+titulo = titulo.renderText('Aproximacion')
+
+print(titulo)
 objetivo = int(input('Escoge un numero: '))
 
 # variable epsilon para determinar la precision
