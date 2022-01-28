@@ -20,14 +20,17 @@ def func1(un_arg, una_func):
     return una_func(valor)
 
 
+
 # función que recibe un solo argumento y devuelve el argumento mas 5
 def cualqueir_func(cualquier_arg):
     return cualquier_arg + 5
 
 
-valor1 = int(input("Escoge un numero: "))
+un_arg = int(input("Escoge un numero: "))
+
+
 # aplicando función con un argumento númerico y una función como argumento
-a  = func1(valor1, cualqueir_func)
+a  = func1(un_arg, cualqueir_func)
 
 print( "El valor de la función anidada es: ", a)
 
